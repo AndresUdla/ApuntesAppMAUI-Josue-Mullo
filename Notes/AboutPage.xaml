@@ -9,10 +9,11 @@
         <HorizontalStackLayout Spacing="10" VerticalOptions="Center">
             <Image Source="imagen1.jpg"
                    SemanticProperties.Description="Icono que representa a Josue"
-                   HeightRequest="64" />
-            <Label FontSize="24" FontAttributes="Bold" Text="Josue Mullo" VerticalOptions="Center" />
+                   HeightRequest="190" />
+            
         </HorizontalStackLayout>
 
+        <Label FontSize="24" FontAttributes="Bold" Text="Josue Mullo" VerticalOptions="Center" />
 
         <Label FontSize="16"
                Text="Soy Josue Mullo, estudiante apasionado por la tecnología y la programación. Me gusta aprender constantemente y desarrollar nuevas ideas con .NET MAUI y otras herramientas modernas."
