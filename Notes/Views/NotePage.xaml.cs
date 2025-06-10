@@ -1,17 +1,16 @@
-namespace Notes;
+namespace Notes.Views;
 
 public partial class NotePage : ContentPage
 {
     string _fileName = Path.Combine(FileSystem.AppDataDirectory, "notes.txt");
-    public NotePage()
-	{
-		InitializeComponent();
-        if (File.Exists(_fileName))
-        {
-            TextEditor.Text = File.ReadAllText(_fileName);
-        }
-    }
 
+    public NotePage()
+    {
+        InitializeComponent();
+
+        if (File.Exists(_fileName))
+            TextEditor.Text = File.ReadAllText(_fileName);
+    }
 
     private void SaveButton_Clicked(object sender, EventArgs e)
     {
@@ -27,6 +26,4 @@ public partial class NotePage : ContentPage
 
         TextEditor.Text = string.Empty;
     }
-
-
 }
