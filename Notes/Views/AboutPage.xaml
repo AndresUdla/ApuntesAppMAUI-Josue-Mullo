@@ -3,6 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:models="clr-namespace:Notes.Models"
              x:Class="Notes.Views.AboutPage"
+             Title="Josue Mullo - Acerca de"
              x:DataType="models:About">
     <ContentPage.BindingContext>
         <models:About />
