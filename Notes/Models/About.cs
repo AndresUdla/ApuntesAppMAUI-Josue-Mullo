@@ -1,15 +1,9 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace Notes.Models;
+﻿namespace Notes.Models;
 
 internal class About
 {
-    public string Title => AppInfo.Name;
-    public string Version => AppInfo.VersionString;
-    public string MoreInfoUrl => "https://aka.ms/maui";
-    public string Message => "This app is written in XAML and C# with .NET MAUI.";
+    public string Title => "Josue Mullo";
+    public string Version => "Estudiante de Ingeniería de Software";
+    public string MoreInfoUrl => "https://github.com/AndresUdla";
+    public string Message => "Soy Andrés, un apasionado por la programación, actualmente aprendiendo Java, .NET MAUI y más. Me gusta aprender cosas nuevas cada día y desarrollar ideas útiles con tecnologías modernas.";
 }
